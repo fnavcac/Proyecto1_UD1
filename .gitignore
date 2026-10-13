@@ -19,11 +19,7 @@ nb-configuration.xml
 *~
 *.nib
 *.tmp
-ProyectoGrupalUD1/build.xml
-ProyectoGrupalUD1/manifest.mf
-ProyectoGrupalUD1/nbproject/build-impl.xml
+
 ProyectoGrupalUD1/nbproject/genfiles.properties
 ProyectoGrupalUD1/nbproject/private/private.properties
-ProyectoGrupalUD1/nbproject/project.properties
-ProyectoGrupalUD1/nbproject/project.xml
 ProyectoGrupalUD1/nbproject/private/private.xml
