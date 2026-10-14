@@ -24,7 +24,7 @@ import java.util.Scanner;
  *   casting explícito y redactar los comentarios Javadoc.
  * 
  * @author Francisco Navarro, Alvaro Naranjo
- * @version 0.1
+ * @version 1.0
  */
 
 public class FichaNave {
@@ -120,7 +120,7 @@ public class FichaNave {
         System.out.println("Porcentaje de tanque lleno: " + porcentaje + " %");
         System.out.println("Años truncados (Casting): " + aniosLuzTruncado);
         System.out.println("===============================");
-        System.out.println("Litros sobrantes tras el viaje: " + litrosSobrantes + " %");
+        System.out.println("Litros sobrantes tras el viaje: " + litrosSobrantes + " litros");
     }
     
 }
