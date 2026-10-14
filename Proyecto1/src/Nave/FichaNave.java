@@ -37,11 +37,11 @@ public class FichaNave {
     
     public static void main(String[] args) {
         
-        // Declaracion e Inicializacion de Constantes
+        // Declaracion e Inicializacion de Constantes (No cambian durante la ejecución)
         
-        double CAPACIDAD_MAXIMA_LITROS = 2000.0;
+        final double CAPACIDAD_MAXIMA_LITROS = 2000.0;
         
-        double CONSUMO_POR_ANIO_LUZ = 180.5;
+        final double CONSUMO_POR_ANIO_LUZ = 180.5;
         
         
         // Declaracion de Variables
@@ -106,7 +106,21 @@ public class FichaNave {
         double litrosSobrantes = combustibleActual % CONSUMO_POR_ANIO_LUZ;
         
         
-        // Mostrar los resultados por pantalla (Falta)
+        // Mostrar los resultados por pantalla
+        
+        System.out.println("\n\n===============================");
+        System.out.println("Nombre del piloto: " + nombrePiloto);
+        System.out.println("Rango del piloto " + rangoPiloto);
+        System.out.println("Experiencia del piloto: " + nivelExperiencia);
+        System.out.println("===============================");
+        System.out.println("Combustible actual: " + combustibleActual + " litros");
+        System.out.println("¿Está listo el sistema?: " + estaListo);
+        System.out.println("===============================");
+        System.out.println("Años luz de distancia: " + aniosLuz);
+        System.out.println("Porcentaje de tanque lleno: " + porcentaje + " %");
+        System.out.println("Años truncados (Casting): " + aniosLuzTruncado);
+        System.out.println("===============================");
+        System.out.println("Litros sobrantes tras el viaje: " + litrosSobrantes + " %");
     }
     
 }
